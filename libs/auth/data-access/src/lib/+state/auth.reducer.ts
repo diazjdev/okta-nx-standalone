@@ -1,6 +1,8 @@
 import { createReducer, on } from '@ngrx/store';
 import * as AuthActions from './auth.actions';
 
+export const authReducerKey = 'auth';
+
 export interface AuthState {
   user: any;
   error: any;

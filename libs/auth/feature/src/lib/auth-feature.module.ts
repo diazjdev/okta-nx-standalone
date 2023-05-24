@@ -1,22 +1,20 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { OKTA_CONFIG, OktaAuthModule, OktaConfig } from '@okta/okta-angular';
 import { StoreModule } from '@ngrx/store';
-import { authReducer } from './store/auth.reducer';
-import { AuthEffects } from './store/auth.effects';
+import { AuthEffects, authReducer, authReducerKey } from 'auth/data-access';
 import { EffectsModule } from '@ngrx/effects';
+import { OKTA_CONFIG, OktaAuthModule, OktaConfig } from '@okta/okta-angular';
 
 @NgModule({
-  declarations: [],
   imports: [
     CommonModule,
     OktaAuthModule,
-    StoreModule.forFeature('auth', authReducer),
+    StoreModule.forFeature(authReducerKey, authReducer),
     EffectsModule.forFeature([AuthEffects]),
   ],
 })
-export class AuthModule {
-  constructor(@Optional() @SkipSelf() parentModule: AuthModule) {
+export class AuthFeatureModule {
+  constructor(@Optional() @SkipSelf() parentModule: AuthFeatureModule) {
     if (parentModule) {
       throw new Error(
         'AuthModule is already loaded. Please add it in AppModule only.'
@@ -25,7 +23,7 @@ export class AuthModule {
   }
   static forRoot(conf?: OktaConfig) {
     return {
-      ngModule: AuthModule,
+      ngModule: AuthFeatureModule,
       providers: [{ provide: OKTA_CONFIG, useValue: conf }],
     };
   }
