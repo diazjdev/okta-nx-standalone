@@ -12,7 +12,8 @@
     "baseUrl": "./",
     "paths": {
       "auth/data-access": ["libs/auth/data-access/src/index.ts"],
-      "auth/feature": ["libs/auth/feature/src/index.ts"]
+      "auth/feature": ["libs/auth/feature/src/index.ts"],
+      "shell/feature": ["libs/shell/feature/src/index.ts"]
     }
   }
 }
