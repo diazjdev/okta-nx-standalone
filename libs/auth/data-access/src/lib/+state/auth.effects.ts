@@ -1,23 +1,10 @@
 import { Inject, Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
-import {
-  map,
-  catchError,
-  switchMap,
-  tap,
-  filter,
-  withLatestFrom,
-  take,
-  skip,
-  takeLast,
-} from 'rxjs/operators';
+import { map, catchError, switchMap } from 'rxjs/operators';
 import { from, of } from 'rxjs';
-// import { OktaAuthStateService } from '@okta/okta-angular';
 import * as AuthActions from './auth.actions';
 import { OKTA_AUTH, OktaAuthStateService } from '@okta/okta-angular';
-import OktaAuth, { AuthState } from '@okta/okta-auth-js';
-
-// @Inject(OKTA_AUTH) private _oktaAuth: OktaAuth
+import OktaAuth from '@okta/okta-auth-js';
 
 @Injectable()
 export class AuthEffects {

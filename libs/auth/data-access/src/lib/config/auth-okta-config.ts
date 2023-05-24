@@ -1,6 +1,6 @@
 import { InjectionToken } from '@angular/core';
 import { OktaAuth } from '@okta/okta-auth-js';
-import { OKTA_CONFIG, OktaAuthModule, OktaConfig } from '@okta/okta-angular';
+import { OktaConfig } from '@okta/okta-angular';
 
 export interface IAuthConfig {
   issuer: string;

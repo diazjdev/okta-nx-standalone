@@ -3,13 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AuthModule } from './auth/auth.module';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { OKTA_AUTH, OKTA_CONFIG } from '@okta/okta-angular';
-import { OktaAuth } from '@okta/okta-auth-js';
-import { IAuthConfig, oktaAuthConfig } from './auth/okta-config.mode';
+import { AuthFeatureModule } from 'auth/feature';
+import { IAuthConfig, oktaAuthConfig } from 'auth/data-access';
 
 const config: IAuthConfig = {
   issuer: 'https://dev-55604879.okta.com/oauth2/default',
@@ -24,7 +22,7 @@ const oktaAuth = oktaAuthConfig(config);
     BrowserModule,
     StoreModule.forRoot({}),
     EffectsModule.forRoot([]),
-    AuthModule.forRoot(oktaAuth),
+    AuthFeatureModule.forRoot(oktaAuth),
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
       logOnly: !isDevMode(), // Restrict extension to log-only mode
