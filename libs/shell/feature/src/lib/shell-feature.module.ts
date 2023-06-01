@@ -6,7 +6,7 @@ import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { AuthFeatureModule } from 'auth/feature';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { IAuthConfig, oktaAuthConfig } from 'auth/data-access';
+import { AuthGuard, IAuthConfig, oktaAuthConfig } from 'auth/data-access';
 
 const config: IAuthConfig = {
   issuer: 'https://dev-55604879.okta.com/oauth2/default',
@@ -16,6 +16,11 @@ const config: IAuthConfig = {
 const oktaAuth = oktaAuthConfig(config);
 const routes: Routes = [
   { path: 'login/callback', component: OktaCallbackComponent },
+  {
+    path: 'dashboard',
+    canActivate: [AuthGuard],
+    loadChildren: async () => (await import('dashboard')).DashboardModule,
+  },
 ];
 
 @NgModule({
