@@ -13,6 +13,9 @@
     "paths": {
       "auth/data-access": ["libs/auth/data-access/src/index.ts"],
       "auth/feature": ["libs/auth/feature/src/index.ts"],
+      "cart/data-access": ["libs/cart/data-access/src/index.ts"],
+      "cart/feature/cart": ["libs/cart/feature/cart/src/index.ts"],
+      "cart/feature/ui": ["libs/cart/feature/ui/src/index.ts"],
       "dashboard": ["libs/dashboard/src/index.ts"],
       "products/data-access": ["libs/products/data-access/src/index.ts"],
       "products/feature/product": [
