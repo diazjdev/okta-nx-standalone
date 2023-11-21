@@ -13,7 +13,19 @@
     "paths": {
       "auth/data-access": ["libs/auth/data-access/src/index.ts"],
       "auth/feature": ["libs/auth/feature/src/index.ts"],
+      "cart/data-access": ["libs/cart/data-access/src/index.ts"],
+      "cart/feature/cart": ["libs/cart/feature/cart/src/index.ts"],
+      "cart/feature/ui": ["libs/cart/feature/ui/src/index.ts"],
       "dashboard": ["libs/dashboard/src/index.ts"],
+      "products/data-access": ["libs/products/data-access/src/index.ts"],
+      "products/feature/product": [
+        "libs/products/feature/product/src/index.ts"
+      ],
+      "products/feature/products": [
+        "libs/products/feature/products/src/index.ts"
+      ],
+      "products/feature/ui": ["libs/products/feature/ui/src/index.ts"],
+      "products/shell": ["libs/products/shell/src/index.ts"],
       "shell/feature": ["libs/shell/feature/src/index.ts"]
     }
   }
