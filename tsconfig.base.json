@@ -14,6 +14,7 @@
       "auth/data-access": ["libs/auth/data-access/src/index.ts"],
       "auth/feature": ["libs/auth/feature/src/index.ts"],
       "dashboard": ["libs/dashboard/src/index.ts"],
+      "products/data-access": ["libs/products/data-access/src/index.ts"],
       "shell/feature": ["libs/shell/feature/src/index.ts"]
     }
   }
