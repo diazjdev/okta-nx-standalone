@@ -21,9 +21,6 @@
       "products/feature/products": [
         "libs/products/feature/products/src/index.ts"
       ],
-      "products/feature/produtcs": [
-        "libs/products/feature/produtcs/src/index.ts"
-      ],
       "products/feature/ui": ["libs/products/feature/ui/src/index.ts"],
       "products/shell": ["libs/products/shell/src/index.ts"],
       "shell/feature": ["libs/shell/feature/src/index.ts"]
