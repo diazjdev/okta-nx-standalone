@@ -21,6 +21,11 @@ const routes: Routes = [
     canActivate: [AuthGuard],
     loadChildren: async () => (await import('dashboard')).DashboardModule,
   },
+  {
+    path: 'products',
+    loadChildren: () =>
+      import('products/shell').then((m) => m.ProductsShellModule),
+  },
 ];
 
 @NgModule({
