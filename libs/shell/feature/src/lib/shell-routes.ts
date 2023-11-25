@@ -13,7 +13,7 @@ export const SHELL_ROUTES: Routes = [
       { path: 'login/callback', component: OktaCallbackComponent },
       {
         path: 'dashboard',
-        canActivate: [AuthGuard],
+        // canActivate: [AuthGuard],
         loadChildren: async () => (await import('dashboard')).DashboardModule,
       },
       {

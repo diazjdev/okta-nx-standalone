@@ -14203,11 +14203,6 @@
       },
       {
         "source": "shell-feature",
-        "target": "npm:jest-preset-angular",
-        "type": "static"
-      },
-      {
-        "source": "shell-feature",
         "target": "npm:@okta/okta-angular",
         "type": "static"
       },
@@ -14220,6 +14215,11 @@
         "source": "shell-feature",
         "target": "products-shell",
         "type": "dynamic"
+      },
+      {
+        "source": "shell-feature",
+        "target": "npm:jest-preset-angular",
+        "type": "static"
       }
     ],
     "auth-feature": [
@@ -14284,12 +14284,17 @@
     "shared-ui": [
       {
         "source": "shared-ui",
-        "target": "npm:jest-preset-angular",
+        "target": "npm:@angular/core",
         "type": "static"
       },
       {
         "source": "shared-ui",
-        "target": "npm:@angular/core",
+        "target": "npm:@angular/router",
+        "type": "static"
+      },
+      {
+        "source": "shared-ui",
+        "target": "npm:jest-preset-angular",
         "type": "static"
       }
     ],
