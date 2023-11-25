@@ -1,12 +1,14 @@
 import { NgModule, isDevMode } from '@angular/core';
 import { AsyncPipe, CommonModule } from '@angular/common';
-import { RouterModule, Routes } from '@angular/router';
-import { OktaCallbackComponent } from '@okta/okta-angular';
+import { RouterModule } from '@angular/router';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { AuthFeatureModule } from 'auth/feature';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { AuthGuard, IAuthConfig, oktaAuthConfig } from 'auth/data-access';
+import { IAuthConfig, oktaAuthConfig } from 'auth/data-access';
+import { SHELL_ROUTES } from './shell-routes';
+import { SharedUiModule } from 'shared/ui';
+import { ShellComponent } from './components/shell/shell/shell.component';
 
 const config: IAuthConfig = {
   issuer: 'https://dev-55604879.okta.com/oauth2/default',
@@ -14,24 +16,12 @@ const config: IAuthConfig = {
   redirectUri: window.location.origin + '/login/callback',
 };
 const oktaAuth = oktaAuthConfig(config);
-const routes: Routes = [
-  { path: 'login/callback', component: OktaCallbackComponent },
-  {
-    path: 'dashboard',
-    canActivate: [AuthGuard],
-    loadChildren: async () => (await import('dashboard')).DashboardModule,
-  },
-  {
-    path: 'products',
-    loadChildren: () =>
-      import('products/shell').then((m) => m.ProductsShellModule),
-  },
-];
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes),
+    SharedUiModule,
+    RouterModule.forRoot(SHELL_ROUTES),
     StoreModule.forRoot({}),
     EffectsModule.forRoot([]),
     AuthFeatureModule.forRoot(oktaAuth),
@@ -44,5 +34,6 @@ const routes: Routes = [
     }),
   ],
   exports: [RouterModule, AsyncPipe],
+  declarations: [ShellComponent],
 })
 export class ShellFeatureModule {}

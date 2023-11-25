@@ -2853,6 +2853,141 @@
         "hash": "sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg=="
       }
     },
+    "npm:@swc-node/core": {
+      "type": "npm",
+      "name": "npm:@swc-node/core",
+      "data": {
+        "version": "1.10.6",
+        "packageName": "@swc-node/core",
+        "hash": "sha512-lDIi/rPosmKIknWzvs2/Fi9zWRtbkx8OJ9pQaevhsoGzJSal8Pd315k1W5AIrnknfdAB4HqRN12fk6AhqnrEEw=="
+      }
+    },
+    "npm:@swc-node/register": {
+      "type": "npm",
+      "name": "npm:@swc-node/register",
+      "data": {
+        "version": "1.6.8",
+        "packageName": "@swc-node/register",
+        "hash": "sha512-74ijy7J9CWr1Z88yO+ykXphV29giCrSpANQPQRooE0bObpkTO1g4RzQovIfbIaniBiGDDVsYwDoQ3FIrCE8HcQ=="
+      }
+    },
+    "npm:@swc-node/sourcemap-support": {
+      "type": "npm",
+      "name": "npm:@swc-node/sourcemap-support",
+      "data": {
+        "version": "0.3.0",
+        "packageName": "@swc-node/sourcemap-support",
+        "hash": "sha512-gqBJSmJMWomZFxlppaKea7NeAqFrDrrS0RMt24No92M3nJWcyI9YKGEQKl+EyJqZ5gh6w1s0cTklMHMzRwA1NA=="
+      }
+    },
+    "npm:@swc/core-darwin-arm64@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-darwin-arm64@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-darwin-arm64",
+        "hash": "sha512-Qj7Jct68q3ZKeuJrjPx7k8SxzWN6PqLh+VFxzA+KwLDpQDPzOlKRZwkIMzuFjLhITO4RHgSnXoDk/Syz0ZeN+Q=="
+      }
+    },
+    "npm:@swc/core-darwin-x64@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-darwin-x64@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-darwin-x64",
+        "hash": "sha512-wR7m9QVJjgiBu1PSOHy7s66uJPa45Kf9bZExXUL+JAa9OQxt5y+XVzr+n+F045VXQOwdGWplgPnWjgbUUHEVyw=="
+      }
+    },
+    "npm:@swc/core-linux-arm64-gnu@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-linux-arm64-gnu@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-linux-arm64-gnu",
+        "hash": "sha512-gcGv1l5t0DScEONmw5OhdVmEI/o49HCe9Ik38zzH0NtDkc+PDYaCcXU5rvfZP2qJFaAAr8cua8iJcOunOSLmnA=="
+      }
+    },
+    "npm:@swc/core-linux-arm64-musl@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-linux-arm64-musl@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-linux-arm64-musl",
+        "hash": "sha512-XL1/eUsTO8BiKsWq9i3iWh7H99iPO61+9HYiWVKhSavknfj4Plbn+XyajDpxsauln5o8t+BRGitymtnAWJM4UQ=="
+      }
+    },
+    "npm:@swc/core-linux-x64-gnu@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-linux-x64-gnu@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-linux-x64-gnu",
+        "hash": "sha512-fGrXYE6DbTfGNIGQmBefYxSk3rp/1lgbD0nVg4rl4mfFRQPi7CgGhrrqSuqZ/ezXInUIgoCyvYGWFSwjLXt/Qg=="
+      }
+    },
+    "npm:@swc/core-linux-x64-musl@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-linux-x64-musl@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-linux-x64-musl",
+        "hash": "sha512-kvgZp/mqf3IJ806gUOL6gN6VU15+DfzM1Zv4Udn8GqgXiUAvbQehrtruid4Snn5pZTLj4PEpSCBbxgxK1jbssA=="
+      }
+    },
+    "npm:@swc/core-win32-arm64-msvc@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-win32-arm64-msvc@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-win32-arm64-msvc",
+        "hash": "sha512-yt8RtZ4W/QgFF+JUemOUQAkVW58cCST7mbfKFZ1v16w3pl3NcWd9OrtppFIXpbjU1rrUX2zp2R7HZZzZ2Zk/aQ=="
+      }
+    },
+    "npm:@swc/core-win32-ia32-msvc@1.3.99": {
+      "type": "npm",
+      "name": "npm:@swc/core-win32-ia32-msvc@1.3.99",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-win32-ia32-msvc",
+        "hash": "sha512-62p5fWnOJR/rlbmbUIpQEVRconICy5KDScWVuJg1v3GPLBrmacjphyHiJC1mp6dYvvoEWCk/77c/jcQwlXrDXw=="
+      }
+    },
+    "npm:@swc/core-win32-x64-msvc": {
+      "type": "npm",
+      "name": "npm:@swc/core-win32-x64-msvc",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core-win32-x64-msvc",
+        "hash": "sha512-PdppWhkoS45VGdMBxvClVgF1hVjqamtvYd82Gab1i4IV45OSym2KinoDCKE1b6j3LwBLOn2J9fvChGSgGfDCHQ=="
+      }
+    },
+    "npm:@swc/core": {
+      "type": "npm",
+      "name": "npm:@swc/core",
+      "data": {
+        "version": "1.3.99",
+        "packageName": "@swc/core",
+        "hash": "sha512-8O996RfuPC4ieb4zbYMfbyCU9k4gSOpyCNnr7qBQ+o7IEmh8JCV6B8wwu+fT/Om/6Lp34KJe1IpJ/24axKS6TQ=="
+      }
+    },
+    "npm:@swc/counter": {
+      "type": "npm",
+      "name": "npm:@swc/counter",
+      "data": {
+        "version": "0.1.2",
+        "packageName": "@swc/counter",
+        "hash": "sha512-9F4ys4C74eSTEUNndnER3VJ15oru2NumfQxS8geE+f3eB5xvfxpWyqE5XlVnxb/R14uoXi6SLbBwwiDSkv+XEw=="
+      }
+    },
+    "npm:@swc/types": {
+      "type": "npm",
+      "name": "npm:@swc/types",
+      "data": {
+        "version": "0.1.5",
+        "packageName": "@swc/types",
+        "hash": "sha512-myfUej5naTBWnqOCc/MdVOLVjXUXtIA+NpDrDBKJtLLg2shUjBu3cZmB/85RyitKc55+lUUyl7oRfLOvkr2hsw=="
+      }
+    },
     "npm:@tootallnate/once": {
       "type": "npm",
       "name": "npm:@tootallnate/once",
@@ -19685,6 +19820,101 @@
       "type": "static"
     },
     {
+      "source": "npm:@swc-node/register",
+      "target": "npm:@swc-node/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/register",
+      "target": "npm:@swc-node/sourcemap-support",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/register",
+      "target": "npm:colorette",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/register",
+      "target": "npm:debug",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/register",
+      "target": "npm:pirates",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/register",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/sourcemap-support",
+      "target": "npm:source-map-support",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc-node/sourcemap-support",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/counter",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-darwin-arm64@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-darwin-x64@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-linux-arm64-gnu@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-linux-arm64-musl@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-linux-x64-gnu@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-linux-x64-musl@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-win32-arm64-msvc@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-win32-ia32-msvc@1.3.99",
+      "type": "static"
+    },
+    {
+      "source": "npm:@swc/core",
+      "target": "npm:@swc/core-win32-x64-msvc",
+      "type": "static"
+    },
+    {
       "source": "npm:@tufjs/models",
       "target": "npm:@tufjs/canonical-json",
       "type": "static"
@@ -31426,6 +31656,16 @@
     },
     {
       "source": "npm:source-map-support@0.5.19",
+      "target": "npm:source-map",
+      "type": "static"
+    },
+    {
+      "source": "npm:source-map-support",
+      "target": "npm:buffer-from",
+      "type": "static"
+    },
+    {
+      "source": "npm:source-map-support",
       "target": "npm:source-map",
       "type": "static"
     },
