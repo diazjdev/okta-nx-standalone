@@ -26,6 +26,7 @@
       ],
       "products/feature/ui": ["libs/products/feature/ui/src/index.ts"],
       "products/shell": ["libs/products/shell/src/index.ts"],
+      "shared/ui": ["libs/shared/ui/src/index.ts"],
       "shell/feature": ["libs/shell/feature/src/index.ts"]
     }
   }

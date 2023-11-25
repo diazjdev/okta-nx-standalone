@@ -1,5 +1,6 @@
 <h1>Okta App</h1>
-<a routerLink="dashboard">Dashboard</a>
+<a routerLink="dashboard">Dashboard</a> |
+<a routerLink="products">Products</a>
 <hr>
 <ng-container *ngIf="(isAuthenticated$ | async) === false; else signout">
   <button (click)="signIn()"> Sign in </button>
