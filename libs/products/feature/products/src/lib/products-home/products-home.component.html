@@ -1,1 +1,12 @@
 <h2>Products</h2>
+<section>
+  <ul *ngIf="products$ | async as products">
+    <li *ngFor="let product of products">
+
+      <lib-product></lib-product>
+
+      <!-- {{product | json }} -->
+
+    </li>
+  </ul>
+</section>

@@ -13915,6 +13915,16 @@
       },
       {
         "source": "products-feature-products",
+        "target": "shared-ui",
+        "type": "static"
+      },
+      {
+        "source": "products-feature-products",
+        "target": "products-feature-ui",
+        "type": "static"
+      },
+      {
+        "source": "products-feature-products",
         "target": "products-data-access",
         "type": "static"
       },
@@ -14157,6 +14167,11 @@
       {
         "source": "products-shell",
         "target": "products-data-access",
+        "type": "static"
+      },
+      {
+        "source": "products-shell",
+        "target": "products-feature-ui",
         "type": "static"
       },
       {
@@ -14497,6 +14512,16 @@
       {
         "source": "okta-angular-quickstart",
         "target": "npm:@schematics/angular",
+        "type": "static"
+      },
+      {
+        "source": "okta-angular-quickstart",
+        "target": "npm:@swc-node/register",
+        "type": "static"
+      },
+      {
+        "source": "okta-angular-quickstart",
+        "target": "npm:@swc/core",
         "type": "static"
       },
       {
