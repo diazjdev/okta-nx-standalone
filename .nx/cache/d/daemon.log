@@ -1722,3 +1722,4 @@
 [NX Daemon Server] - 2023-11-25T21:32:04.817Z - Time taken for 'total for creating and serializing project graph' 0.16550004482269287ms
 [NX Daemon Server] - 2023-11-25T21:32:04.818Z - Done responding to the client project-graph
 [NX Daemon Server] - 2023-11-25T21:32:04.818Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2023-11-25T21:32:05.693Z - Closed a connection. Number of open connections: 1
