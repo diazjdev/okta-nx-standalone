@@ -25,6 +25,7 @@ const oktaAuth = oktaAuthConfig(config);
     StoreModule.forRoot({}),
     EffectsModule.forRoot([]),
     AuthFeatureModule.forRoot(oktaAuth),
+
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
       logOnly: !isDevMode(), // Restrict extension to log-only mode

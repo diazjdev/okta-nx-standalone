@@ -47,3 +47,5 @@ export function productsReducer(
 ) {
   return reducer(state, action);
 }
+
+export const pReducer = createReducer({ products: [] });
