@@ -9,7 +9,7 @@ import { ProductsFeatureUiModule } from 'products/feature/ui';
   imports: [
     CommonModule,
     ProductsDataAccessModule,
-    ProductsFeatureUiModule,
+    // ProductsFeatureUiModule,
 
     RouterModule.forChild(PRODUCTS_ROUTES),
   ],
